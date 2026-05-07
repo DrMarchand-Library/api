@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "updated": "2025-11-04T13:12:00Z",
+  "version": "1.0.1",
+  "updated": "2026-05-07T00:00:00Z",
   "servers": [
     {
       "name": "Dr. Marchand’s • Laboratory™",
@@ -11,17 +11,19 @@
       "invite": "https://discord.gg/kDA6mH3haQ"
     },
     {
-      "name": "The Creative Guild™",
-      "slug": "guild",
-      "emoji": "🖼️",
-      "route": "/guild",
-      "discord_route": "/discord/guild",
-      "invite": "https://discord.gg/Na5fqE4bUu"
+      "name": "DrMarchand’s 🎨 Creative Canvas",
+      "slug": "canvas",
+      "emoji": "🎨",
+      "route": "/canvas",
+      "discord_route": "/discord/canvas",
+      "invite": "https://discord.gg/Na5fqE4bUu",
+      "powered_by": "DrMarchand’s ∞ OS™ ⚛︎ Lionheart [Beta]",
+      "mark_status": "descriptive_not_trademark"
     },
     {
       "name": "Design Orchard™",
       "slug": "orchard",
-      "emoji": "🎨",
+      "emoji": "🌴",
       "route": "/orchard",
       "discord_route": "/discord/orchard",
       "invite": "https://discord.gg/8Ak2Ny56QV"
@@ -37,6 +39,8 @@
   ],
   "provenance": {
     "mms_768": "timestamp-verified",
-    "hash_sha256": "<fill-on-release>"
+    "hash_sha256": "<fill-on-release>",
+    "powered_by": "DrMarchand’s ∞ OS™ ⚛︎ Lionheart [Beta]",
+    "note": "Creative Canvas is descriptive and is not currently claimed as a trademark or service mark."
   }
 }
