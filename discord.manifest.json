@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updated": "2026-05-07T00:00:00Z",
   "servers": [
     {
@@ -17,7 +17,7 @@
       "route": "/canvas",
       "discord_route": "/discord/canvas",
       "invite": "https://discord.gg/Na5fqE4bUu",
-      "powered_by": "DrMarchand’s ∞ OS™ ⚛︎ Lionheart [Beta]",
+      "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
       "mark_status": "descriptive_not_trademark"
     },
     {
@@ -40,7 +40,7 @@
   "provenance": {
     "mms_768": "timestamp-verified",
     "hash_sha256": "<fill-on-release>",
-    "powered_by": "DrMarchand’s ∞ OS™ ⚛︎ Lionheart [Beta]",
+    "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
     "note": "Creative Canvas is descriptive and is not currently claimed as a trademark or service mark."
   }
 }
