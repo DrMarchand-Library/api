@@ -1,9 +1,9 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "updated": "2026-05-07T00:00:00Z",
   "servers": [
     {
-      "name": "Dr. Marchand’s • Laboratory™",
+      "name": "DrMarchand’s Lab⚛︎ratory™",
       "slug": "lab",
       "emoji": "🧪",
       "route": "/lab",
