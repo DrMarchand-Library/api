@@ -3,12 +3,12 @@
 Public API and protocol surface for the DrMarchand ecosystem.
 
 ```txt
-Runtime Surface : 🔬 DrMarchand’s Lab⚛︎ratory™
-Archive Surface : 📚 DrMarchand’s ⚛︎ Library™
-Engine          : ⚙︎ Nɛuro-Forge Engine™
-OS Layer        : DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]
-Protocol        : Marchand Micro-Molecular Services™ / MMS-768™
-Legal Operator  : Design Orchard LLC
+Legal Canopy   : Design Orchard LLC
+Runtime Surface: 🔬 DrMarchand’s Lab⚛︎ratory™
+Archive Surface: 📚 DrMarchand’s ⚛︎ Library™
+Engine         : DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+OS Layer       : DrMarchand’s ∞ OS™
+Protocol       : Marchand Micro-Molecular Services™ / MMS-768™
 ```
 
 ---
@@ -18,12 +18,14 @@ Legal Operator  : Design Orchard LLC
 Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and trademark kingdom for the DrMarchand ecosystem.
 
 ```txt
-Design Orchard LLC owns.
+Design Orchard LLC owns and operates virtually.
 DrMarchand’s Lab⚛︎ratory™ researches and builds.
 KEJ Studio™ designs and produces.
 DrMarchand’s ⚛︎ Library™ archives and indexes.
 Design Orchard™ publishes and holds.
-MMS-768™ verifies.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ runs system architecture.
+DrMarchand’s ∞ OS™ provides the operating framework.
+MMS-768™ verifies where implemented.
 ```
 
 The Lab and KEJ Studio™ are operating, publishing, research, software, and creative production branches under Design Orchard LLC unless separately filed or registered.
@@ -95,10 +97,11 @@ Use:
 
 ```txt
 Joseph “Kyle” Marchand aka DrMarchand
+Design Orchard LLC
 🔬 DrMarchand’s Lab⚛︎ratory™
 📚 DrMarchand’s ⚛︎ Library™
-⚙︎ Nɛuro-Forge Engine™
-DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ∞ OS™
 Marchand Micro-Molecular Services™ / MMS-768™
 KEJ Studio™
 DrMarchand’s 🎨 Creative Canvas
@@ -115,7 +118,17 @@ Creative Canvas™ / Creative Canvas℠ / Creative Canvas®
 MMS = Modular Memory Security as parent name
 MMS~768 / MMS—768
 Neuro-Forge / Nuɛro-Forge as engine canon
+Standalone ∞ OS™ / InfinityOS
 ® without an actual registration record
+```
+
+---
+
+## Footer Rule
+
+```txt
+© 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC. All rights reserved unless a repository license states otherwise.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ and DrMarchand’s ∞ OS™ operate within the Design Orchard LLC ecosystem.
 ```
 
 ---
