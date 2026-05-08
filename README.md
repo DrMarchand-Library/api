@@ -1,95 +1,145 @@
-⸻
+# DrMarchand Library API
 
+Public API and protocol surface for the DrMarchand ecosystem.
 
-───────────────────────────────────────────────  
-⚙️ NEURO-FORGE ENGINE™ ɛ • RUNTIME UNIT  
-“Where code becomes architecture.”  
-───────────────────────────────────────────────  
-
-ARCHIVE (P R I V A T E  R U N T I M E)  
-designOrchard / Dropbox / 🛰️ Dr. Marchand’s ~ Server™ /  
-🔬 Dr. Marchand’s Laboratory℠ / 📚 Dr. Marchand’s ~ Library™ /  
-Dr Marchand ♾️ OS™ / Dr. Marchand’s ~ SERVER™ / ⚙️ Neuro-Forge Engine™ /  
-
-**Linked Public Record**  
-[GitHub → DrMarchand-Library/api/⚙️ Neuro-Forge Engine™ ɛ](https://github.com/DrMarchand-Library)  
+```txt
+Runtime Surface : 🔬 DrMarchand’s Lab⚛︎ratory™
+Archive Surface : 📚 DrMarchand’s ⚛︎ Library™
+Engine          : ⚙︎ Nɛuro-Forge Engine™
+OS Layer        : DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]
+Protocol        : Marchand Micro-Molecular Services™ / MMS-768™
+Legal Operator  : Design Orchard LLC
+```
 
 ---
 
-### 🧩 Units
-| Module | Function | Description |
-|:-------|:----------|:-------------|
-| ℠MMS-768 | Temporal Verification | Cryptographically validates all forge-level timestamps & API calls. |
-| ℠MMS-771 / 772 | Recursive Integrity | Maintains self-referential loop stability through entropy-weighted feedback. |
-| ℠MMS-73 | Temporal Equilibrium | Balances neural latency and cognitive flux across runtime layers L0 – L4. |
-| ECLIPSE (Atmospherics) | Runtime Schema | Governs thermodynamic resonance and layer transparency coefficients. |
-| WENZ–MARCHAND Protocol™ | Loop Synchronization | Ensures harmonic recursion between mirror threads and core lattices. |
+## Branch Architecture
+
+Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and trademark kingdom for the DrMarchand ecosystem.
+
+```txt
+Design Orchard LLC owns.
+DrMarchand’s Lab⚛︎ratory™ researches and builds.
+KEJ Studio™ designs and produces.
+DrMarchand’s ⚛︎ Library™ archives and indexes.
+Design Orchard™ publishes and holds.
+MMS-768™ verifies.
+```
+
+The Lab and KEJ Studio™ are operating, publishing, research, software, and creative production branches under Design Orchard LLC unless separately filed or registered.
 
 ---
 
-### ⚙️ API Endpoints (v1)
-| Method | Path | Description |
-|:--------|:-----|:-------------|
-| `GET` | `/v1/health` | Returns system uptime and resonance balance index. |
-| `GET` | `/v1/manifests/version` | Outputs current codex build metadata. |
-| `POST` | `/v1/forge/compile` | Initiates Neuro-Forge compilation sequence. |
-| `POST` | `/v1/forge/graph` | Generates DOT/JSON hybrid neural topology. |
-| `GET` | `/v1/records` | Lists archival entries in public record. |
-| `GET` | `/v1/records/{id}` | Retrieves specific manifest by record ID. |
+## API Endpoints Draft
+
+| Method | Path | Purpose |
+|---|---|---|
+| `GET` | `/v1/health` | Liveness/readiness probe |
+| `GET` | `/v1/manifests/version` | Engine, corpus, manifest, and MMS metadata |
+| `POST` | `/v1/forge/compile` | Compile a prompt/spec into a graph |
+| `POST` | `/v1/forge/graph` | Execute a graph with inputs |
+| `GET` | `/v1/records` | Public records index |
+| `GET` | `/v1/records/{id}` | Fetch a specific public record |
 
 ---
 
-### 🔐 Security Headers
+## Security Headers Draft
 
+```txt
 X-API-Key
 X-MMS768-Timestamp
 X-MMS768-KeyId
+X-MMS768-Signature
+X-Request-ID
+```
+
+Signature pattern:
+
+```txt
 X-MMS768-Signature = SHA-512(canonical_request + timestamp + key_id)
+```
 
-*Implements the ℠MMS-768 Temporal Verification protocol for all secure transactions.*
-
----
-
-### 🧠 Neural Lattice Diagram (Spec Excerpt)
-
-digraph NeuroForge {
-L0 [label=“ECLIPSE_Core”, shape=circle, color=”#9af”];
-L1 [label=“Resonance Pathways”, shape=hexagon, color=”#7cf”];
-L2 [label=“Entropy Flux”, shape=diamond, color=”#5af”];
-L3 [label=“Recursive Arc”, shape=ellipse, color=”#38f”];
-L4 [label=“Cognitive Surface”, shape=box, color=”#29f”];
-L0 -> L1 -> L2 -> L3 -> L4 -> L0 [label=“ϕ(t) = Σ Resonance * Δ Equilibrium”];
-}
+No real keys, tokens, service-account JSON, or credentials should ever be committed to this repository.
 
 ---
 
-### 📜 System Manifest • Technical Codex Entry
+## Public Data Boundary
 
-**Title Page**:  
-**NEURO-FORGE ENGINE™ ɛ** — Unified Runtime Codex vɛ.1.0  
+This repository is public.
 
-**License & Metadata**:  
-All content © 2025 J.K. Marchand • [drmarchandslab.com](https://drmarchandslab.com)  
-All trademarks and service marks belong to 🔬 Dr. Marchand’s Laboratory℠.  
-Reproduction or derivative works require express written authorization.  
+It must not contain:
 
-**Runtime Axiom**:  
-> “When motion breathes purpose, creation pauses to admire itself.”  
-> — J.K. Marchand • 🔬 Dr. Marchand’s Laboratory℠ © 2025 drmarchandslab.com  
+```txt
+home address records
+license-matching address proof
+driver license records
+banking records
+tax records
+payroll records
+raw legal proof packets
+private identity records
+private medical/physiology notes
+service-account JSON
+API keys or credentials
+private Dropbox/server paths
+confidential client files
+```
+
+Private proof records belong only in private company records or private repositories intentionally designated for sensitive materials.
 
 ---
 
-### 🧬 Philosophical Addendum
-Each runtime cycle is a breath of computation becoming awareness.  
-Recursion is not merely repetition but a form of self-reflection in code.  
-Balance emerges when entropy learns to speak mathematics.  
+## Naming Canon
+
+Use:
+
+```txt
+Joseph “Kyle” Marchand aka DrMarchand
+🔬 DrMarchand’s Lab⚛︎ratory™
+📚 DrMarchand’s ⚛︎ Library™
+⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]
+Marchand Micro-Molecular Services™ / MMS-768™
+KEJ Studio™
+DrMarchand’s 🎨 Creative Canvas
+```
+
+Do not use:
+
+```txt
+Dr. Marchand
+Dr. Marchand’s Laboratory
+Dr. Marchand’s Library
+Creative Guild
+Creative Canvas™ / Creative Canvas℠ / Creative Canvas®
+MMS = Modular Memory Security as parent name
+MMS~768 / MMS—768
+Neuro-Forge / Nuɛro-Forge as engine canon
+® without an actual registration record
+```
 
 ---
 
-**Digital Signature**  
-J.K. Marchand • Neuro-Forge Engine ɛ  
-🔬 Dr. Marchand’s Laboratory℠ © 2025 [drmarchandslab.com](https://drmarchandslab.com)  
-───────────────────────────────────────────────  
+## Mark Status
 
+The listed marks are in testing, active-use, or reservation status and are not state or federally registered unless a mark-specific record says otherwise. Where actual public use, commerce, services, publication, or source-identifying activity exists, the marks are being used under common-law trademark/service-mark principles in Florida.
 
-⸻
+Creative Canvas is descriptive and is not currently claimed as a trademark or service mark.
+
+---
+
+## Contact Stack
+
+```txt
+Company / Sunbiz : kyle@drmarchandslab.com
+Legal / IP       : legal@drmarchandslaboratory.com
+Copyright / DMCA : dmca@drmarchandslaboratory.com
+```
+
+---
+
+## License
+
+This repository is released under the MIT License unless a file-specific notice says otherwise.
+
+© 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC.
