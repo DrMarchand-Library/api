@@ -7,24 +7,42 @@ Legal Canopy   : Design Orchard LLC
 Runtime Surface: 🔬 DrMarchand’s Lab⚛︎ratory™
 Archive Surface: 📚 DrMarchand’s ⚛︎ Library™
 Engine         : DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-OS Layer       : DrMarchand’s ∞ OS™
+OS Layer       : DrMarchand’s ♾️ OS™
 Protocol       : Marchand Micro-Molecular Services™ / MMS-768™
+Public ARM     : /v1 dynamic stable routing lane
 ```
+
+---
+
+## Public ARM / v1 Rule
+
+`/v1` is the stable public Archive Routing Manifest lane.
+
+It represents the current verified public routing contract and may evolve across internal runtime, documentation, or infrastructure versions unless a breaking public routing change requires a new public lane.
+
+```txt
+/v1
+→ current verified public routing layer
+→ stable external reference surface
+→ dynamic public contract
+```
+
+Internal versions may advance behind `/v1` without changing the public route.
 
 ---
 
 ## Branch Architecture
 
-Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and trademark kingdom for the DrMarchand ecosystem.
+Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and operational authority for the DrMarchand ecosystem.
 
 ```txt
-Design Orchard LLC owns and operates virtually.
+Design Orchard LLC owns, publishes, records, and operates.
 DrMarchand’s Lab⚛︎ratory™ researches and builds.
 KEJ Studio™ designs and produces.
 DrMarchand’s ⚛︎ Library™ archives and indexes.
 Design Orchard™ publishes and holds.
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ runs system architecture.
-DrMarchand’s ∞ OS™ provides the operating framework.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ defines and executes deterministic runtime workflows where implemented.
+DrMarchand’s ♾️ OS™ provides the conceptual operating framework where implemented.
 MMS-768™ verifies where implemented.
 ```
 
@@ -33,6 +51,8 @@ The Lab and KEJ Studio™ are operating, publishing, research, software, and cre
 ---
 
 ## API Endpoints Draft
+
+Endpoints listed in this document represent draft or planned protocol surfaces unless implementation status is explicitly documented elsewhere.
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -101,6 +121,7 @@ Design Orchard LLC
 🔬 DrMarchand’s Lab⚛︎ratory™
 📚 DrMarchand’s ⚛︎ Library™
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ♾️ OS™
 DrMarchand’s ∞ OS™
 Marchand Micro-Molecular Services™ / MMS-768™
 KEJ Studio™
@@ -118,6 +139,7 @@ Creative Canvas™ / Creative Canvas℠ / Creative Canvas®
 MMS = Modular Memory Security as parent name
 MMS~768 / MMS—768
 Neuro-Forge / Nuɛro-Forge as engine canon
+♾️ ∞ OS™
 Standalone ∞ OS™ / InfinityOS
 ® without an actual registration record
 ```
@@ -128,7 +150,7 @@ Standalone ∞ OS™ / InfinityOS
 
 ```txt
 © 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC. All rights reserved unless a repository license states otherwise.
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ and DrMarchand’s ∞ OS™ operate within the Design Orchard LLC ecosystem.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ and DrMarchand’s ♾️ OS™ are ecosystem components operating under the Design Orchard LLC publication and infrastructure structure.
 ```
 
 ---
@@ -156,3 +178,6 @@ Copyright / DMCA : dmca@drmarchandslaboratory.com
 This repository is released under the MIT License unless a file-specific notice says otherwise.
 
 © 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC.
+
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ API  
+📚 DrMarchand’s ⚛︎ Library™ (Protocols & Marks)
