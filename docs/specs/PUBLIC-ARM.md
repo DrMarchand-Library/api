@@ -4,12 +4,43 @@ ARM means **Archive Routing Manifest** in this repository context.
 
 This document defines the public-facing routing layer for DrMarchand ecosystem records, releases, and platform surfaces attached to GitHub.
 
+---
+
+## Version Routing Rule
+
+`v1` is the stable public routing lane for the current public ARM contract.
+
+It should remain dynamic across future internal versions unless a breaking public routing change requires a new public lane.
+
+```txt
+/v1
+→ current public ARM contract
+→ latest verified public routing docs
+→ stable external reference lane
+```
+
+Internal versions may advance independently behind the public `v1` route.
+
+Examples:
+
+```txt
+internal build: v0.1
+internal runtime: v0.2
+internal docs: v0.3
+public ARM: /v1
+```
+
+The public `v1` route should not be treated as a frozen historical version. It is the living stable public interface for verified current routing.
+
+---
+
 ## Public Canonical GitHub Surface
 
 ```txt
 Repository: DrMarchand-Library/api
 Visibility: public
 Role: public API, protocol, and routing documentation surface
+Public Lane: /v1
 ```
 
 This repository is the public documentation boundary for:
