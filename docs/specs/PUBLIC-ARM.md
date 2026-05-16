@@ -61,15 +61,10 @@ It must not contain private records, credentials, legal proof packets, private f
 | ARM | Status | Role |
 |---|---|---|
 | GitHub | verified | canonical public code/spec documentation surface |
-| Website | pending verification | public identity and publication surface |
-| Discord | reserved/pending | realtime coordination lane |
-| Facebook Pages | reserved/pending | public update and identity lane |
-| YouTube | reserved/pending | runtime demonstration lane |
-| Reddit | reserved/pending | community discussion lane |
-| X / Twitter | reserved/pending | release/status broadcast lane |
-| Bluesky | reserved/pending | distributed public archive lane |
+| Website | planned/pending verification | public doorway and publication surface |
+| Dropbox | planned/pending verification | Creative Canvas public gallery/display shelf |
 
-No social platform should be documented as active until account existence, ownership, credentials/control, or operational integration is verified.
+Additional social platforms should not be listed as public ARMs unless the user explicitly chooses to use them and account ownership/control is verified.
 
 ---
 
@@ -117,7 +112,7 @@ KEJ Studio™ is the creative release and visual publication imprint.
 
 ## Public Boundary Rule
 
-Public ARMs may route people to information, releases, demos, and community surfaces.
+Public ARMs may route people to information, releases, public artwork, and public documentation.
 
 Public ARMs are not runtime authority.
 
