@@ -1,6 +1,6 @@
-# DrMarchand Library API
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ API / Public ARM v1
 
-Public API and protocol surface for the DrMarchand ecosystem.
+Public `/v1` API, protocol, and Archive Routing Manifest surface for the DrMarchand ecosystem.
 
 ```txt
 Legal Canopy   : Design Orchard LLC
