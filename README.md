@@ -3,13 +3,14 @@
 Public `/v1` API, protocol, and Archive Routing Manifest surface for the DrMarchand ecosystem.
 
 ```txt
-Legal Canopy   : Design Orchard LLC
-Runtime Surface: 🔬 DrMarchand’s Lab⚛︎ratory™
-Archive Surface: 📚 DrMarchand’s ⚛︎ Library™
-Engine         : DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-OS Layer       : DrMarchand’s ♾️ OS™
-Protocol       : Marchand Micro-Molecular Services™ / MMS-768™
-Public ARM     : /v1 dynamic stable routing lane
+Legal Entity     : Design Orchard LLC
+Current DBA      : DrMarchand’s Laboratory
+Runtime Surface  : 🔬 DrMarchand’s Lab⚛︎ratory™
+Archive Surface  : 📚 DrMarchand’s ⚛︎ Library™
+Engine           : DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+OS Layer         : DrMarchand’s ∞ OS™
+Protocol         : Marchand Micro-Molecular Services™ / MMS-768™
+Public ARM       : /v1 dynamic stable routing lane
 ```
 
 ---
@@ -31,22 +32,40 @@ Internal versions may advance behind `/v1` without changing the public route.
 
 ---
 
-## Branch Architecture
+## Business and Identity Architecture
 
-Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and operational authority for the DrMarchand ecosystem.
+Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and operational authority for the software and API layers documented here.
+
+DrMarchand’s Laboratory, with the apostrophe, is the current business-facing DBA used by Design Orchard LLC.
+
+DrMarchands Laboratory, without the apostrophe, is the private root for pre-company creative, design, code, and research development before formal company intake.
 
 ```txt
 Design Orchard LLC owns, publishes, records, and operates.
-DrMarchand’s Lab⚛︎ratory™ researches and builds.
-KEJ Studio™ designs and produces.
-DrMarchand’s ⚛︎ Library™ archives and indexes.
-Design Orchard™ publishes and holds.
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ defines and executes deterministic runtime workflows where implemented.
-DrMarchand’s ♾️ OS™ provides the conceptual operating framework where implemented.
+Design Orchard LLC d/b/a DrMarchand’s Laboratory is the business-facing lab doorway.
+🔬 DrMarchand’s Lab⚛︎ratory™ is the stylized runtime/public lab surface.
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ defines deterministic runtime workflows where implemented.
+DrMarchand’s ∞ OS™ provides the operating framework where implemented.
+DrMarchand’s ⚛︎ Library™ archives and indexes records where implemented.
+KEJ Studio™ is the creative/design lane unless separately filed or authorized.
 MMS-768™ verifies where implemented.
 ```
 
-The Lab and KEJ Studio™ are operating, publishing, research, software, and creative production branches under Design Orchard LLC unless separately filed or registered.
+---
+
+## Code and Artwork Boundary
+
+The API, software, schemas, routing contracts, and implementation records belong to the Design Orchard LLC software layer unless a file-specific notice says otherwise.
+
+Artwork is a separate creative asset layer. Artwork, visual media, UI art, guest-artist work, and showcased assets are licensed media unless expressly assigned in writing or identified by a file-specific notice.
+
+Default rule:
+
+```txt
+Code stays with Design Orchard LLC.
+Artwork stays artist-aware.
+The system may showcase artwork only through documented permission, license, assignment, commission terms, or file-specific notice.
+```
 
 ---
 
@@ -89,25 +108,9 @@ No real keys, tokens, service-account JSON, or credentials should ever be commit
 
 This repository is public.
 
-It must not contain:
+It must not contain private company records, client-confidential files, raw identity records, tax records, payment records, private medical notes, service-account JSON, API keys, credentials, private server paths, or private cloud paths.
 
-```txt
-home address records
-license-matching address proof
-driver license records
-banking records
-tax records
-payroll records
-raw legal proof packets
-private identity records
-private medical/physiology notes
-service-account JSON
-API keys or credentials
-private Dropbox/server paths
-confidential client files
-```
-
-Private proof records belong only in private company records or private repositories intentionally designated for sensitive materials.
+Private proof records belong only in controlled private records or private repositories intentionally designated for sensitive materials.
 
 ---
 
@@ -118,10 +121,11 @@ Use:
 ```txt
 Joseph “Kyle” Marchand aka DrMarchand
 Design Orchard LLC
+Design Orchard LLC d/b/a DrMarchand’s Laboratory
+DrMarchands Laboratory
 🔬 DrMarchand’s Lab⚛︎ratory™
 📚 DrMarchand’s ⚛︎ Library™
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-DrMarchand’s ♾️ OS™
 DrMarchand’s ∞ OS™
 Marchand Micro-Molecular Services™ / MMS-768™
 KEJ Studio™
@@ -139,7 +143,6 @@ Creative Canvas™ / Creative Canvas℠ / Creative Canvas®
 MMS = Modular Memory Security as parent name
 MMS~768 / MMS—768
 Neuro-Forge / Nuɛro-Forge as engine canon
-♾️ ∞ OS™
 Standalone ∞ OS™ / InfinityOS
 ® without an actual registration record
 ```
@@ -150,14 +153,14 @@ Standalone ∞ OS™ / InfinityOS
 
 ```txt
 © 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC. All rights reserved unless a repository license states otherwise.
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ and DrMarchand’s ♾️ OS™ are ecosystem components operating under the Design Orchard LLC publication and infrastructure structure.
+Operated through Design Orchard LLC d/b/a DrMarchand’s Laboratory.
 ```
 
 ---
 
 ## Mark Status
 
-The listed marks are in testing, active-use, or reservation status and are not state or federally registered unless a mark-specific record says otherwise. Where actual public use, commerce, services, publication, or source-identifying activity exists, the marks are being used under common-law trademark/service-mark principles in Florida.
+The listed marks are in testing, active-use, or reservation status and are not state or federally registered unless a mark-specific record says otherwise. Where actual public use, commerce, services, publication, or source-identifying activity exists, marks may be used under common-law trademark/service-mark principles.
 
 Creative Canvas is descriptive and is not currently claimed as a trademark or service mark.
 
