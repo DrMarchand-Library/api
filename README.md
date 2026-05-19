@@ -34,14 +34,19 @@ Internal versions may advance behind `/v1` without changing the public route.
 
 ## Business and Identity Architecture
 
-Design Orchard LLC is the legal owner, operator, publisher, rights-holder, and operational authority for the software and API layers documented here.
+Design Orchard LLC is the legal owner, operator, publisher, rights-holder, mint, registry, and operational authority for the software and API layers documented here.
 
 DrMarchand’s Laboratory, with the apostrophe, is the current business-facing DBA used by Design Orchard LLC.
 
 DrMarchands Laboratory, without the apostrophe, is the private root for pre-company creative, design, code, and research development before formal company intake.
 
+J.K. Marchand is the published-writing and professional authorship alias. DrMarchand is the creative, streaming, gaming, online-handle, and Lab voice alias. These aliases should not be flattened into one identity string.
+
 ```txt
-Design Orchard LLC owns, publishes, records, and operates.
+Joseph Kyle Marchand is the legal human name.
+J.K. Marchand is the published writing / professional author name.
+DrMarchand is the creative, streaming, gaming, and online system identity.
+Design Orchard LLC owns, publishes, records, mints, and operates.
 Design Orchard LLC d/b/a DrMarchand’s Laboratory is the business-facing lab doorway.
 🔬 DrMarchand’s Lab⚛︎ratory™ is the stylized runtime/public lab surface.
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ defines deterministic runtime workflows where implemented.
@@ -50,6 +55,8 @@ DrMarchand’s ⚛︎ Library™ archives and indexes records where implemented.
 KEJ Studio™ is the creative/design lane unless separately filed or authorized.
 MMS-768™ verifies where implemented.
 ```
+
+Design Orchard LLC does not directly create the software. The Lab creates and develops the internal systems; Design Orchard LLC mints, publishes, records, licenses, distributes, and operates the public-facing software assets where applicable.
 
 ---
 
@@ -74,7 +81,7 @@ The system may showcase artwork only through documented permission, license, ass
 Endpoints listed in this document represent draft or planned protocol surfaces unless implementation status is explicitly documented elsewhere.
 
 | Method | Path | Purpose |
-|---|---|---|
+|---|---|
 | `GET` | `/v1/health` | Liveness/readiness probe |
 | `GET` | `/v1/manifests/version` | Engine, corpus, manifest, and MMS metadata |
 | `POST` | `/v1/forge/compile` | Compile a prompt/spec into a graph |
@@ -119,7 +126,9 @@ Private proof records belong only in controlled private records or private repos
 Use:
 
 ```txt
-Joseph “Kyle” Marchand aka DrMarchand
+Joseph Kyle Marchand
+J.K. Marchand for published writing and professional authorship
+DrMarchand for creative, streaming, gaming, online handle, and Lab voice
 Design Orchard LLC
 Design Orchard LLC d/b/a DrMarchand’s Laboratory
 DrMarchands Laboratory
@@ -135,6 +144,7 @@ DrMarchand’s 🎨 Creative Canvas
 Do not use:
 
 ```txt
+Joseph “Kyle” Marchand aka DrMarchand as a flattened identity string
 Dr. Marchand
 Dr. Marchand’s Laboratory
 Dr. Marchand’s Library
@@ -152,7 +162,9 @@ Standalone ∞ OS™ / InfinityOS
 ## Footer Rule
 
 ```txt
-© 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC. All rights reserved unless a repository license states otherwise.
+© 2025-2026 Joseph Kyle Marchand / Design Orchard LLC. All rights reserved unless a repository license states otherwise.
+Published writing may be credited to J.K. Marchand.
+Creative, streaming, gaming, and Lab-system work may appear under DrMarchand.
 Operated through Design Orchard LLC d/b/a DrMarchand’s Laboratory.
 ```
 
@@ -180,7 +192,7 @@ Copyright / DMCA : dmca@drmarchandslaboratory.com
 
 This repository is released under the MIT License unless a file-specific notice says otherwise.
 
-© 2025-2026 Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC.
+© 2025-2026 Joseph Kyle Marchand / Design Orchard LLC.
 
 DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ API  
 📚 DrMarchand’s ⚛︎ Library™ (Protocols & Marks)
