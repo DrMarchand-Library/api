@@ -81,7 +81,7 @@ The system may showcase artwork only through documented permission, license, ass
 Endpoints listed in this document represent draft or planned protocol surfaces unless implementation status is explicitly documented elsewhere.
 
 | Method | Path | Purpose |
-|---|---|
+|---|---|---|
 | `GET` | `/v1/health` | Liveness/readiness probe |
 | `GET` | `/v1/manifests/version` | Engine, corpus, manifest, and MMS metadata |
 | `POST` | `/v1/forge/compile` | Compile a prompt/spec into a graph |
