@@ -3,7 +3,7 @@
 **Operator:** Joseph “Kyle” Marchand aka DrMarchand / Design Orchard LLC  
 **Runtime Surface:** 🔬 DrMarchand’s Lab⚛︎ratory™  
 **Archive Surface:** 📚 DrMarchand’s ⚛︎ Library™  
-**Engine:** ⚙︎ Nɛuro-Forge Engine™  
+**Engine:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™  
 **OS Layer:** DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]  
 **Protocol:** Marchand Micro-Molecular Services™ / MMS-768™  
 **Status:** Public protocol summary, naming-scrubbed canon  
