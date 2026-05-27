@@ -10,7 +10,7 @@ Platform: Ubuntu minimal
 
 ## Runtime Relationship
 
-DrMarchand's ♾️ OS™ and ⚙︎ Nɛuro-Forge Engine™ are intended to initialize as coordinated layers.
+DrMarchand's ♾️ OS™ and DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ are intended to initialize as coordinated layers.
 
 The OS layer represents:
 
