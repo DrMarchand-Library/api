@@ -148,9 +148,9 @@ public links
 
 ---
 
-## Nɛuro-Forge Engine™ Relationship
+## DrMarchand’s Nɛuro-Forge Engine Relationship
 
-Where implemented, ⚙︎ Nɛuro-Forge Engine™ may function as:
+Where implemented, DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ may function as:
 
 ```txt
 provider router
