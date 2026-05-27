@@ -77,7 +77,7 @@ Design Orchard LLC
 KEJ Studio™
 🔬 DrMarchand’s Lab⚛︎ratory™
 📚 DrMarchand’s ⚛︎ Library™
-⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 DrMarchand’s ♾️ OS™
 DrMarchand’s ∞ OS™
 Marchand Micro-Molecular Services™ / MMS-768™
