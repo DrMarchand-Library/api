@@ -120,7 +120,7 @@ C. Security — MMS-768 Signing
 Required Request Headers
 
 Header	Example	Meaning
-X-API-Key	lab_pk_live_…	API key (scope-limited)
+X-API-Key	${API_KEY}	API key (scope-limited)
 X-MMS768-Timestamp	2025-10-25T07:07:59Z	ISO-8601 UTC
 X-MMS768-Signature	sha512=<hex>	HMAC signature over canonical request
 X-Request-ID	a1b2c3…	Optional correlation id
@@ -153,7 +153,7 @@ POST /v1/forge/compile
 
 curl -sS -X POST https://api.library.drmarchandslab.com/v1/forge/compile \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: lab_pk_live_***" \
+  -H "X-API-Key: ${API_KEY}" \
   -H "X-MMS768-Timestamp: 2025-10-25T07:07:59Z" \
   -H "X-MMS768-Signature: sha512=***" \
   -d '{
@@ -174,7 +174,7 @@ POST /v1/forge/graph
 
 curl -sS -X POST https://api.library.drmarchandslab.com/v1/forge/graph \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: lab_pk_live_***" \
+  -H "X-API-Key: ${API_KEY}" \
   -H "X-MMS768-Timestamp: 2025-10-25T07:09:11Z" \
   -H "X-MMS768-Signature: sha512=***" \
   -d '{ "graph_id": "g_7a2c9f", "inputs": { "seed": 768 } }'
