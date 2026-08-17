@@ -8,7 +8,7 @@
       "emoji": "🧪",
       "route": "/lab",
       "discord_route": "/discord/lab",
-      "invite": "https://discord.gg/kDA6mH3haQ"
+      "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
     },
     {
       "name": "DrMarchand’s 🎨 Creative Canvas",
@@ -16,7 +16,7 @@
       "emoji": "🎨",
       "route": "/canvas",
       "discord_route": "/discord/canvas",
-      "invite": "https://discord.gg/Na5fqE4bUu",
+      "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD",
       "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
       "mark_status": "descriptive_not_trademark"
     },
@@ -26,7 +26,7 @@
       "emoji": "🌴",
       "route": "/orchard",
       "discord_route": "/discord/orchard",
-      "invite": "https://discord.gg/8Ak2Ny56QV"
+      "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
     },
     {
       "name": "KEJ Studio™",
@@ -34,7 +34,7 @@
       "emoji": "🎥",
       "route": "/art",
       "discord_route": "/discord/kej",
-      "invite": "https://discord.gg/gRhZBgYWPP"
+      "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
     }
   ],
   "provenance": {
@@ -42,5 +42,7 @@
     "hash_sha256": "<fill-on-release>",
     "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
     "note": "Creative Canvas is descriptive and is not currently claimed as a trademark or service mark."
-  }
+  },
+  "public_invite_status": "redacted_from_repository; revoke_and_rotate_in_discord",
+  "authority_boundary": "creative_guild is an internal router only; human authorization required"
 }
