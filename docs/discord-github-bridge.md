@@ -1,8 +1,10 @@
+> Status: Working integration proposal. Public invitations are prohibited; `creative_guild` is an internal router only and carries no independent authority.
+
 # 🧬 API Discord ↔ GitHub Bridge
 
 > BRIDGE STATUS: `GET → push(POST)._GET`  
 > Active parent identity: 🔬 DrMarchand’s Lab⚛︎ratory™  
-> Legal / publishing trunk: 🌴 Design Orchard LLC
+> Legal and operating company: Design Orchard LLC
 
 This document routes the API GitHub repository into the correct Discord server and channel structure. The API lane acts as connective tissue between Laboratory, Library, Engine, and future integrations.
 
@@ -14,7 +16,7 @@ This document routes the API GitHub repository into the correct Discord server a
 api_lane:
   parent_server: "🔬 DrMarchand’s Lab⚛︎ratory™"
   guild_id: "916230825618583623"
-  invite: "https://discord.gg/NajWt3HQt4"
+  invite: "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
   welcome_channel: "#welcome-laboratory"
   github_channel: "#github-api"
   role: "API bridge, connective tissue, integrations, system endpoints"
@@ -68,7 +70,7 @@ Role:
 • bridge Engine behavior
 • prepare stable integration paths
 
-Design Orchard LLC remains the legal and publishing trunk.
+Design Orchard LLC remains the legal and operating company; publisher status requires a work-specific publication record.
 ```
 
 ---
@@ -99,11 +101,11 @@ Discord may use expressive emoji. Official PDFs, contracts, manifests, and expor
 Use vector marks or embedded SVG/PNG icons instead:
 
 ```text
-[ Palm Mark ] Design Orchard LLC
+[ Legal entity ] Design Orchard LLC
 [ Microscope Mark ] DrMarchand’s Lab⚛︎ratory™
 [ API Mark ] API
 [ Library Mark ] DrMarchand’s Library™
-[ Gear Mark ] Nɛuro-Forge Engine™
+[ Execution system ] DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 [ Canvas Mark ] Creative Canvas
 ```
 
