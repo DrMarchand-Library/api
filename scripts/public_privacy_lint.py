@@ -47,7 +47,22 @@ RULES: List[Rule] = [
     ),
     Rule(
         "credentials",
-        re.compile(r"\b(?:service_account|private_key|client_secret|api[_-]?key|access_token|refresh_token)\b", re.IGNORECASE),
+        re.compile(
+            r"""
+            (?:
+                -----BEGIN\s+(?:RSA\s+|EC\s+|OPENSSH\s+)?PRIVATE\s+KEY-----
+                |
+                \blab_pk_(?:live|test)_[A-Za-z0-9_-]{4,}\b
+                |
+                \b(?:service_account|private_key|client_secret|api[_-]?key|access_token|refresh_token)\b
+                \s*[:=]\s*
+                ["']?
+                (?!\$\{[A-Z0-9_]+\}|<[^>]+>|REDACTED\b|EXAMPLE\b|PLACEHOLDER\b|\*+)
+                [^\s"'\`,}]{8,}
+            )
+            """,
+            re.IGNORECASE | re.VERBOSE,
+        ),
         "Credential-like material must never be committed to the public API repo.",
     ),
 ]
