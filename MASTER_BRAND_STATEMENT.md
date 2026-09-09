@@ -1,27 +1,29 @@
-# Design Orchard Ecosystem Identity and Rights Record
+# Design Orchard Ecosystem Identity Boundary
 
-Status: Working record; not a trademark registry or ownership instrument
+Status: public working reference; not a trademark registry, ownership instrument, or substitute for work-specific rights records.
 
-## Structure
+## Current structure
 
 | Identity | Function |
-|---|---|
+| --- | --- |
 | Design Orchard LLC | Legal and operating company |
-| 🔬 DrMarchand’s Lab⚛︎ratory™ | Dynamic working environment |
-| 📚 DrMarchand’s ⚛︎ Library™ | Documented intelligence and preservation |
+| 🌴 Design Orchard™ | Public ecosystem brand |
+| 🏝️ Design Orchard℠ | Service surface |
+| 🔬 DrMarchand’s Lab⚛︎ratory™ | Protected working environment |
+| 📚 DrMarchand’s ⚛︎ Library™ | Preservation, curation, and recall |
 | DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ | Bounded execution and orchestration |
-| DrMarchand’s ∞ OS™ | Public presentation and interaction |
-| KEJ Studio | Creative and visual intelligence |
-| DrMarchand’s 🎨 Creative Canvas | Working creative space |
+| DrMarchand’s OS™ | Presentation, navigation, routing, and lifecycle state |
+| KEJ Studio | Creative operating lane |
+| DrMarchand’s 🎨 Creative Canvas | Working creative surface |
 
-## Rights
+## Identity rule
 
-Joseph Kyle Marchand is the author and default copyright owner of original material unless a file-specific record establishes otherwise. Design Orchard LLC may operate, maintain, contract, distribute, or publish a work only within the role documented for that work. Publication does not itself transfer copyright.
+`Infinity OS` and `Infinite OS` are not current system names. The `∞` symbol is an infinite-bridge concept inside DrMarchand’s OS™.
 
-Repository placement, DBA association, invoices, operational responsibility, and publisher credit do not transfer copyright. Existing licenses, prior grants, file-specific notices, and third-party rights remain in effect.
+Display marks are policy-selected. Do not mechanically add `™` or `℠` to every personal, company, or system reference; use the approved display variant for the target surface.
 
-## Marks
+## Rights boundary
 
-`TM` and `SM` express claims; the registered symbol requires a current registration covering the exact mark and applicable goods or services. This record does not establish registration, clearance, or ownership.
+Authorship, copyright ownership, licensing, publisher status, trademark claims, DBA status, repository maintenance, and operational control are separate questions. Existing licenses, file-specific notices, third-party rights, and work-specific records remain controlling within their scope.
 
-Copyright © 2025-2026 Joseph Kyle Marchand.
+Repository placement does not by itself transfer rights or establish registration, clearance, runtime status, or archival completion.
