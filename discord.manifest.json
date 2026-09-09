@@ -1,11 +1,11 @@
 {
-  "version": "1.0.3",
-  "updated": "2026-05-07T00:00:00Z",
+  "version": "1.1.0",
+  "updated": "2026-09-09T00:00:00Z",
   "servers": [
     {
-      "name": "DrMarchand’s Lab⚛︎ratory™",
+      "name": "🔬 DrMarchand’s Lab⚛︎ratory™",
       "slug": "lab",
-      "emoji": "🧪",
+      "emoji": "🔬",
       "route": "/lab",
       "discord_route": "/discord/lab",
       "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
@@ -17,11 +17,10 @@
       "route": "/canvas",
       "discord_route": "/discord/canvas",
       "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD",
-      "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
-      "mark_status": "descriptive_not_trademark"
+      "powered_by": "DrMarchand’s OS™"
     },
     {
-      "name": "Design Orchard™",
+      "name": "🌴 Design Orchard™",
       "slug": "orchard",
       "emoji": "🌴",
       "route": "/orchard",
@@ -29,7 +28,7 @@
       "invite": "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
     },
     {
-      "name": "KEJ Studio™",
+      "name": "🎥 KEJ Studio℠",
       "slug": "kej",
       "emoji": "🎥",
       "route": "/art",
@@ -38,11 +37,10 @@
     }
   ],
   "provenance": {
-    "mms_768": "timestamp-verified",
-    "hash_sha256": "<fill-on-release>",
-    "powered_by": "DrMarchand’s ♾️ OS™ ⚛︎ Lionheart [Beta]",
-    "note": "Creative Canvas is descriptive and is not currently claimed as a trademark or service mark."
+    "identity_policy": "server-resolved-safe-public-view",
+    "powered_by": "DrMarchand’s OS™",
+    "hash_sha256": "<fill-on-release>"
   },
   "public_invite_status": "redacted_from_repository; revoke_and_rotate_in_discord",
-  "authority_boundary": "creative_guild is an internal router only; human authorization required"
+  "authority_boundary": "routing identifiers have no independent legal, organizational, publishing, trademark, or archival authority"
 }
