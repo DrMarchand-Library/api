@@ -1,204 +1,70 @@
 # Provider Failover Specification
 
-## Classification
+**Status:** proposed provider-neutral contract · **Production status:** evidence-gated
 
-This document defines the provider-resilient storage and routing model for the DrMarchand ecosystem.
+## Core principle
 
-The purpose of the failover model is to preserve artifact continuity independently of storage provider availability.
-
----
-
-## Core Principle
-
-```txt
-Artifact identity must not depend on storage provider identity.
+```text
+artifact identity != storage-provider identity
 ```
 
-Artifacts should remain addressable and verifiable even if:
+A registered artifact should keep one stable identity even when an authorized copy exists in more than one storage provider or the preferred provider changes.
 
-- providers fail
-- providers change
-- providers migrate
-- public links rotate
-- infrastructure moves
-- storage lanes are replaced
+## Provider model
 
----
+A provider record may describe fields such as:
 
-## Storage Lane Model
-
-### OneDrive
-
-Operational role:
-
-```txt
-business vault
-private records
-legal continuity
-accounting and contracts
-protected originals
+```text
+provider_id
+object_id_or_locator
+copy_role
+availability_state
+last_verified_at
+checksum_or_content_proof
+visibility_boundary
 ```
 
-### Google Drive
+Provider-specific object IDs, account IDs, folder names, and sharing URLs are coordinates. They do not become the artifact identity.
 
-Operational role:
+## Example providers
 
-```txt
-active workbench
-live collaboration
-core workspace
-runtime drafting
-continuity workspace
+OneDrive, Dropbox, and Google Drive may participate in package or artifact discovery where authorized. Naming a provider in this specification does **not** prove that a specific account, folder, mirror, or synchronization path is currently connected.
+
+Providers should not be permanently assigned semantic roles such as "vault," "canonical," or "public" merely from their brand name. The registered artifact and current policy determine copy role.
+
+## Proposed failover flow
+
+```text
+artifact request
+-> resolve stable artifact identity
+-> read eligible provider locations
+-> validate current provider availability
+-> validate required content proof
+-> choose an authorized usable copy
+-> return or route the artifact
+-> record evidence where implemented
 ```
 
-### Dropbox
+A fallback must never silently widen visibility or substitute an unverified copy simply because the primary provider is unavailable.
 
-Operational role:
+## Engine relationship
 
-```txt
-public gallery
-Creative Canvas display shelf
-public releases
-public artwork distribution
-```
+Where implemented, **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** may validate or orchestrate provider selection through explicit Bridge interfaces. External storage providers remain external systems.
 
-### GitHub
+**DrMarchand’s OS™** may present provider or artifact state; it does not become the storage provider or the execution Engine.
 
-Operational role:
+## Validation gate
 
-```txt
-manifest truth
-protocol truth
-configuration truth
-documentation truth
-```
+Do not claim provider failover is active until evidence establishes:
 
----
+- authorized provider connections;
+- stable artifact identifiers;
+- deterministic selection rules;
+- positive and negative availability tests;
+- content-integrity checks appropriate to the artifact;
+- visibility boundaries that survive failover;
+- receipts or logs for the tested behavior.
 
-## Runtime Routing Concept
-
-Conceptual runtime flow:
-
-```txt
-user request
-→ artifact manifest lookup
-→ active provider check
-→ provider availability validation
-→ route to first verified active provider
-→ deliver artifact
-```
-
-Example:
-
-```txt
-Google Drive unavailable
-→ fallback to OneDrive mirror
-→ fallback to Dropbox public mirror
-→ artifact identity remains unchanged
-```
-
----
-
-## Artifact Identity Model
-
-Artifacts should preserve:
-
-```txt
-artifact_id
-manifest identity
-cryptographic hash
-lineage references
-metadata continuity
-```
-
-independently of:
-
-```txt
-provider URLs
-provider account IDs
-folder locations
-public links
-```
-
----
-
-## Example Manifest Structure
-
-```json
-{
-  "artifact_id": "creative-canvas-0001",
-  "title": "Poster Release 001",
-  "hash": "sha512-example",
-  "providers": [
-    {
-      "name": "google_drive",
-      "status": "primary"
-    },
-    {
-      "name": "onedrive",
-      "status": "vault_mirror"
-    },
-    {
-      "name": "dropbox",
-      "status": "public_gallery"
-    }
-  ]
-}
-```
-
----
-
-## DrMarchand’s Nɛuro-Forge Engine Relationship
-
-Where implemented, DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ may function as:
-
-```txt
-provider router
-manifest validator
-artifact continuity layer
-storage abstraction layer
-```
-
-This behavior should not be documented as active runtime functionality until:
-
-- executable routing exists
-- provider integrations exist
-- failover behavior is tested
-- deterministic results are verified
-- logs confirm operational continuity
-
----
-
-## DrMarchand’s ♾️ OS™ Relationship
-
-DrMarchand’s ♾️ OS™ represents the orchestration and continuity environment target responsible for coordinating:
-
-```txt
-provider awareness
-runtime continuity
-artifact routing
-workbench persistence
-archive continuity
-```
-
-unless future implementation records define otherwise.
-
----
-
-## FACT RULE
-
-Provider failover behavior should only be documented as active if:
-
-- providers are connected
-- failover logic exists
-- routing behavior is reproducible
-- manifests validate correctly
-- artifact continuity survives provider loss
-
-Until then:
-
-```txt
-conceptual failover
-≠
-verified production infrastructure
+```text
+proposed failover != verified production failover
 ```
