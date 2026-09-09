@@ -1,54 +1,46 @@
-# DrMarchand's ♾️ OS™ v0.1 Boot Sequence
+# DrMarchand’s OS™ - Proposed Activation Sequence
 
-## Verified Build Target
+**Status:** proposed architecture · **Runtime proof:** required before implementation claims
 
-```txt
-DrMarchand's ♾️ OS™
-Version Target: v0.1
-Platform: Ubuntu minimal
+## Purpose
+
+This document describes a release-safe activation model for coordinating DrMarchand’s OS™ with validated system state. It does not claim that DrMarchand’s OS™ is a bare-metal operating system, bootloader, kernel, or deployed host runtime.
+
+## System boundary
+
+```text
+DrMarchand’s OS™
+  presentation / navigation / routing / lifecycle state
+
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+  bounded execution / validation / orchestration
 ```
 
-## Runtime Relationship
+The systems may coordinate through explicit interfaces without becoming the same component.
 
-DrMarchand's ♾️ OS™ and DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ are intended to initialize as coordinated layers.
+## Proposed activation sequence
 
-The OS layer represents:
-
-- continuity
-- orchestration
-- filesystem coordination
-- archive awareness
-- runtime organization
-
-The Engine layer represents:
-
-- execution
-- validation
-- routing
-- artifact processing
-- deterministic workflows
-
-## Proposed Initialization Sequence
-
-```txt
-power-on
-→ kernel initialization
-→ local filesystem mount
-→ Atlas environment load
-→ Forge runtime bootstrap
-→ artifact services initialize
-→ archive continuity mount
-→ UI shell initialization
-→ workstation ready state
+```text
+host or application start
+-> configuration and identity precheck
+-> required storage / record availability check
+-> explicit Engine bridge authentication where needed
+-> validated state load
+-> OS presentation layer becomes available
+-> health / evidence receipt recorded where implemented
 ```
 
-## Documentation Boundary
+The exact sequence may differ by deployment surface. Public documentation should describe only the steps that are intentionally exposed and actually supported.
 
-This document describes the current intended boot architecture only.
+## Validation gate
 
-A runtime state should not be documented as implemented until:
+Do not describe this sequence as implemented until the applicable deployment can demonstrate:
 
-- executable services exist
-- boot behavior is reproducible
-- logs are generated
-- restart persistence is verified
+- executable services or application entry points;
+- reproducible startup behavior;
+- positive and negative health checks;
+- restart or recovery behavior where claimed;
+- evidence showing which component performed each step;
+- authorized-human acceptance for promotion.
+
+A diagram or specification proves the proposed architecture only; it does not prove runtime activation.
