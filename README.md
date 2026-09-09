@@ -1,31 +1,65 @@
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ API
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ - Public API Specifications
 
-Repository: `DrMarchand-Library/api`  
-Status: Working API and documentation; runtime claims require execution evidence
+> Release-safe API, bridge, and protocol documentation for Engine-adjacent interfaces; this repository is not itself a live production runtime.
+
+**Repository coordinate:** `DrMarchand-Library/api` · **Public** · **Specification and boundary surface**
+
+## Quick start
+
+Clone the repository and run the public privacy lint before publishing documentation changes. No live API server start command is claimed by this repository.
+
+## Library map
+
+| Need | Source |
+| --- | --- |
+| Public-data rules | [`PUBLIC_DATA_BOUNDARY.md`](PUBLIC_DATA_BOUNDARY.md) |
+| Protocol material | [`MMS.md`](MMS.md) |
+| Bridge documentation | [`docs/discord-github-bridge.md`](docs/discord-github-bridge.md) |
+| Interface specifications | [`docs/specs/`](docs/specs/) |
+| Privacy scan | [`scripts/public_privacy_lint.py`](scripts/public_privacy_lint.py) |
+| Rights | [`RIGHTS.md`](RIGHTS.md) |
+
+## Commands
+
+| Command | Effect | Source |
+| --- | --- | --- |
+| `python3 scripts/public_privacy_lint.py --root .` | Scan supported public text files for high-signal private-data and credential patterns | [`scripts/public_privacy_lint.py`](scripts/public_privacy_lint.py) |
+
+## Validation
+
+```bash
+python3 scripts/public_privacy_lint.py --root .
+```
+
+A clean lint result is one boundary check, not proof that every security or privacy control is complete.
+
+## API
+
+This repository documents public interface and bridge specifications. It does not currently prove a live HTTP router, production endpoint, or deployment. Treat files under [`docs/specs/`](docs/specs/) as specifications unless separate runtime evidence establishes implementation.
+
+## Configuration
+
+Secret values are not configuration documentation. Public configuration examples, when needed, must use placeholders and remain inside the boundary defined by [`PUBLIC_DATA_BOUNDARY.md`](PUBLIC_DATA_BOUNDARY.md).
+
+## Architecture boundary
+
+```mermaid
+flowchart LR
+    CLIENT[External client / platform] --> BRIDGE[Explicit bridge]
+    BRIDGE --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™]
+    ENG --> RECEIPT[Validated result / receipt]
+    RECEIPT --> OS[DrMarchand’s OS™ presentation]
+```
+
+External platforms remain outside the Engine. Bridges define the crossing. **DrMarchand’s OS™** presents and routes state; it is not another name for the Engine.
+
+## Naming boundary
+
+Current public documentation uses **DrMarchand’s OS™**. `Infinity OS` and `Infinite OS` are superseded aliases, not current system identities. Historical machine coordinates may remain where compatibility requires them.
 
 ## Authority and rights
 
-- **Legal and operating company:** Design Orchard LLC
-- **Author and default copyright owner:** Joseph Kyle Marchand
-- **Publisher:** not established absent a work-specific publication record
-- **Operating DBA:** DrMarchand’s Laboratory
-- **Working environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
-- **Preservation layer:** 📚 DrMarchand’s ⚛︎ Library™
+**Legal and operating company:** Design Orchard LLC  
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
-The Laboratory works and adapts. The Library documents and preserves. DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ executes within delegated permission. Repository presence, branch placement, operation, DBA association, invoices, or publisher credit do not transfer copyright.
-
-## Truth boundary
-
-Implemented, verified, corroborated, proposed, unsupported, unverified, ambiguous, contradicted, historical, and superseded states must remain distinct. A schema or source file proves its own content, not deployment or production health.
-
-## Discord routing boundary
-
-Public GitHub files must not contain live invitation URLs. The internal identifier `creative_guild` may connect authorized Discord inputs and route eligible material for human review. It has no independent legal, public, community, nonprofit, collective, trademark, publishing, or archival authority.
-
-Invitation creation, revocation, and rotation happen in Discord—not in this repository. Approved permanent records move to 📚 DrMarchand’s ⚛︎ Library™ only after provenance, validation, custody, and authorized-human approval.
-
-## Licensing and marks
-
-The MIT License applies within its stated scope. File-specific and third-party notices remain controlling. `TM` and `SM` express claims; the registered symbol requires current mark-specific registration evidence.
-
-Copyright © 2025-2026 Joseph Kyle Marchand.
+See [`LICENSE`](LICENSE) and [`RIGHTS.md`](RIGHTS.md). Runtime, deployment, security, and completion claims require evidence beyond repository presence.
