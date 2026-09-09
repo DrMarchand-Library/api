@@ -1,119 +1,56 @@
-# Public ARM
+# Public Archive Routing Manifest (ARM)
 
-ARM means **Archive Routing Manifest** in this repository context.
+**Status:** public routing specification · **Deployment status:** evidence-gated
 
-This document defines the public-facing routing layer for DrMarchand ecosystem records, releases, and platform surfaces attached to GitHub.
+ARM means **Archive Routing Manifest** in this repository. It describes how release-safe records may identify public destinations without making those destinations authorities over the underlying record.
 
----
+## Purpose
 
-## Version Routing Rule
+A public ARM may connect a stable record identity to intentionally published destinations such as a repository, website, release page, or public media surface.
 
-`v1` is the stable public routing lane for the current public ARM contract.
-
-It should remain dynamic across future internal versions unless a breaking public routing change requires a new public lane.
-
-```txt
-/v1
-→ current public ARM contract
-→ latest verified public routing docs
-→ stable external reference lane
+```text
+stable record identity
+-> approved public destination
+-> release-safe representation
 ```
 
-Internal versions may advance independently behind the public `v1` route.
+The manifest describes routing. It does not grant legal authority, prove deployment, or make a public URL the permanent identity of the record.
 
-Examples:
+## Versioning
 
-```txt
-internal build: v0.1
-internal runtime: v0.2
-internal docs: v0.3
-public ARM: /v1
-```
+A public routing contract may use a stable interface version such as `v1` when an implementation actually exposes that lane. Documentation must not imply that a route exists merely because a version label appears in a specification.
 
-The public `v1` route should not be treated as a frozen historical version. It is the living stable public interface for verified current routing.
+Breaking public-contract changes should receive an explicit new version. Internal implementation versions may evolve independently when compatibility is preserved.
 
----
+## Repository role
 
-## Public Canonical GitHub Surface
+`DrMarchand-Library/api` is the current public specification and boundary repository for release-safe API, Bridge, protocol, and routing documentation.
 
-```txt
-Repository: DrMarchand-Library/api
-Visibility: public
-Role: public API, protocol, and routing documentation surface
-Public Lane: /v1
-```
+It must not contain private records, credentials, private filesystem paths, local-production markers, private provider locators, or confidential client data.
 
-This repository is the public documentation boundary for:
+## Current identity vocabulary
 
-- API drafts
-- public protocol descriptions
-- public data boundaries
-- naming canon
-- public routing manifests
-- verified public contact lanes
+Use current identities appropriate to the artifact, including:
 
-It must not contain private records, credentials, legal proof packets, private filesystem paths, or confidential client data.
+- Design Orchard LLC
+- 🌴 Design Orchard™
+- 🏝️ Design Orchard℠
+- 🔬 DrMarchand’s Lab⚛︎ratory™
+- 📚 DrMarchand’s ⚛︎ Library™
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- DrMarchand’s OS™
+- 🎥 KEJ Studio℠
+- 🎬 KEJ Studio™
+- DrMarchand’s 🎨 Creative Canvas
 
----
+`Infinity OS` and `Infinite OS` are not current system names. The `∞` symbol is infinite-bridge architecture inside DrMarchand’s OS™, not an alternate product identity.
 
-## Current Public Routing Arms
+## Publication boundary
 
-| ARM | Status | Role |
-|---|---|---|
-| GitHub | verified | canonical public code/spec documentation surface |
-| Website | planned/pending verification | public doorway and publication surface |
-| Dropbox | planned/pending verification | Creative Canvas public gallery/display shelf |
+A public ARM may route people to intentionally released information or media. It must not expose private storage topology, internal routing coordinates, secret-bearing configuration, or material that has not passed the applicable publication gate.
 
-Additional social platforms should not be listed as public ARMs unless the user explicitly chooses to use them and account ownership/control is verified.
+Publisher status, ownership, licensing, mark status, and custody remain work-specific and must be supported by their own records.
 
----
+## Validation gate
 
-## Naming Canon
-
-Use:
-
-```txt
-Design Orchard LLC
-KEJ Studio™
-🔬 DrMarchand’s Lab⚛︎ratory™
-📚 DrMarchand’s ⚛︎ Library™
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-DrMarchand’s ♾️ OS™
-DrMarchand’s ∞ OS™
-Marchand Micro-Molecular Services™ / MMS-768™
-DrMarchand’s 🎨 Creative Canvas
-```
-
-Do not use:
-
-```txt
-♾️ ∞ OS™
-Standalone ∞ OS™
-InfinityOS
-Creative Canvas™
-Creative Canvas℠
-Creative Canvas®
-```
-
----
-
-## Publication Relationship
-
-```txt
-KEJ Studio™ creates.
-Design Orchard publishes.
-```
-
-Design Orchard LLC is the legal and publishing authority.
-
-KEJ Studio™ is the creative release and visual publication imprint.
-
----
-
-## Public Boundary Rule
-
-Public ARMs may route people to information, releases, public artwork, and public documentation.
-
-Public ARMs are not runtime authority.
-
-GitHub remains the canonical public implementation documentation surface until another surface is verified and documented.
+Treat a public destination as active only when the exact destination is reachable, intentionally published, and supported by current evidence. A manifest entry without that evidence remains proposed or pending.
