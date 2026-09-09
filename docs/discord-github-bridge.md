@@ -1,152 +1,60 @@
-> Status: Working integration proposal. Public invitations are prohibited; `creative_guild` is an internal router only and carries no independent authority.
+# API Discord / GitHub Bridge
 
-# 🧬 API Discord ↔ GitHub Bridge
+> Public bridge documentation for repository-event routing. Live invites, guild IDs, webhook URLs, bot tokens, and private routing credentials are intentionally excluded.
 
-> BRIDGE STATUS: `GET → push(POST)._GET`  
-> Active parent identity: 🔬 DrMarchand’s Lab⚛︎ratory™  
-> Legal and operating company: Design Orchard LLC
+**Status:** working integration specification · **Repository:** `DrMarchand-Library/api`
 
-This document routes the API GitHub repository into the correct Discord server and channel structure. The API lane acts as connective tissue between Laboratory, Library, Engine, and future integrations.
+## Purpose
 
----
+This document describes the boundary between public GitHub repository events and an authorized Discord coordination surface.
 
-## 🆔 Guild Identity
+```text
+DrMarchand-Library/api
+        -> explicit integration / webhook
+authorized Discord coordination surface
+        -> human review
+```
+
+The Bridge routes notifications. It does not grant publishing, legal, trademark, archival, runtime, or organizational authority.
+
+## Public route description
 
 ```yaml
-api_lane:
-  parent_server: "🔬 DrMarchand’s Lab⚛︎ratory™"
-  guild_id: "916230825618583623"
-  invite: "REDACTED_REVOKE_AND_ROTATE_IN_DISCORD"
-  welcome_channel: "#welcome-laboratory"
-  github_channel: "#github-api"
-  role: "API bridge, connective tissue, integrations, system endpoints"
+api_bridge:
+  repository: "DrMarchand-Library/api"
+  operating_context: "🔬 DrMarchand’s Lab⚛︎ratory™"
+  direction: "GitHub repository events -> authorized Discord coordination"
+  credentials: "platform-managed; not stored in repository"
+  human_review_required: true
 ```
 
----
+Actual Discord server IDs, channel IDs, invitations, webhook URLs, and credentials belong in platform settings or an approved private registry, not in this public repository.
 
-## 🧵 Repository Route
+## System boundary
 
-```yaml
-github_route:
-  repo: "DrMarchand-Library/api"
-  active_discord_server: "🔬 DrMarchand’s Lab⚛︎ratory™"
-  destination_channel: "#github-api"
-  webhook_mode: "repo events → Discord channel"
-```
+- **Design Orchard LLC** is the legal and operating company.
+- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** remains a separate execution system.
+- **DrMarchand’s OS™** may present or route state but does not become Discord or GitHub.
+- **📚 DrMarchand’s ⚛︎ Library™** receives eligible records only after the applicable validation and human gate.
 
-Routing line:
+External platforms remain external even when connected by a Bridge.
 
-```text
-DrMarchand-Library/api → 🔬 DrMarchand’s Lab⚛︎ratory™ → #github-api
-```
+## Repository-event policy
 
----
+A public integration may emit release-safe repository events such as commits, pull requests, issues, or documented status changes when configured. It should not relay secrets, private files, personal data, or unpublished operating detail.
 
-## 🌈 Channel Constellation
+## Secret boundary
 
-Active channels:
+Do not commit:
 
-```text
-🧬 #github-api
-🔌 #api-feed
-⚙︎ #engine-feed
-📚 #library-feed
-🧪 #experiments
-🧾 #records
-```
+- Discord invite URLs;
+- guild or channel IDs that are intended to remain private;
+- webhook URLs;
+- bot tokens;
+- GitHub personal access tokens;
+- private storage coordinates;
+- local-production markers.
 
----
+## Evidence boundary
 
-## 📣 API Lane Message
-
-```text
-API lane active.
-
-This channel receives repository updates for DrMarchand-Library/api.
-
-Role:
-• connect Laboratory systems
-• support Library records and routes
-• bridge Engine behavior
-• prepare stable integration paths
-
-Design Orchard LLC remains the legal and operating company; publisher status requires a work-specific publication record.
-```
-
----
-
-## 🪪 Symbol Map
-
-```yaml
-symbols:
-  design_orchard: "🌴 / 🏝️"
-  laboratory: "🔬"
-  api: "🧬"
-  library: "📚"
-  engine: "⚙︎"
-  creative_canvas: "🎨"
-  identity: "🆔"
-  invite_key: "🪪"
-  bridge: "↔"
-  push: "POST"
-  pull: "GET"
-```
-
----
-
-## 🧷 PDF-Safe Brand Rule
-
-Discord may use expressive emoji. Official PDFs, contracts, manifests, and exported documents should not rely on emoji as live text.
-
-Use vector marks or embedded SVG/PNG icons instead:
-
-```text
-[ Legal entity ] Design Orchard LLC
-[ Microscope Mark ] DrMarchand’s Lab⚛︎ratory™
-[ API Mark ] API
-[ Library Mark ] DrMarchand’s Library™
-[ Execution system ] DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-[ Canvas Mark ] Creative Canvas
-```
-
-Safe text symbols:
-
-```text
-™
-℠
-©
-•
-→
-∞
-⚛︎
-⚙︎
-```
-
-Convert these to graphics in official exports:
-
-```text
-🌴
-🔬
-📚
-🎨
-🧬
-```
-
----
-
-## 🚦 Immediate Status
-
-```yaml
-status:
-  server_name: "🔬 DrMarchand’s Lab⚛︎ratory™"
-  repo_name: "DrMarchand-Library/api"
-  webhook_target: "#github-api"
-  design_orchard_role: "legal/admin/publishing trunk"
-  mode: "GET → push(POST)._GET"
-```
-
----
-
-## 🛡️ Bridge Rule
-
-Keep private connection strings and automation credentials out of public documentation. Store them only in the proper platform settings.
+This document proves the intended integration contract only. A live webhook, successful event delivery, or production integration requires separate configuration and direct runtime evidence.
