@@ -1,4 +1,4 @@
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ - Public API Specifications
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine - Public API Specifications
 
 > Release-safe API, bridge, and protocol documentation for Engine-adjacent interfaces; this repository is not itself a live production runtime.
 
@@ -46,7 +46,7 @@ Secret values are not configuration documentation. Public configuration examples
 ```mermaid
 flowchart LR
     CLIENT[External client / platform] --> BRIDGE[Explicit bridge]
-    BRIDGE --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine™]
+    BRIDGE --> ENG[DrMarchand’s ⚙︎ Nɛuro-Forge Engine]
     ENG --> RECEIPT[Validated result / receipt]
     RECEIPT --> OS[DrMarchand’s OS™ presentation]
 ```
