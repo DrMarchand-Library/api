@@ -37,7 +37,7 @@ Use current identities appropriate to the artifact, including:
 - 🏝️ Design Orchard℠
 - 🔬 DrMarchand’s Lab⚛︎ratory™
 - 📚 DrMarchand’s ⚛︎ Library™
-- DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+- DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 - DrMarchand’s OS™
 - 🎥 KEJ Studio℠
 - 🎬 KEJ Studio™
