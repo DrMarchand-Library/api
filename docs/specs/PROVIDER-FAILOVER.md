@@ -49,7 +49,7 @@ A fallback must never silently widen visibility or substitute an unverified copy
 
 ## Engine relationship
 
-Where implemented, **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** may validate or orchestrate provider selection through explicit Bridge interfaces. External storage providers remain external systems.
+Where implemented, **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** may validate or orchestrate provider selection through explicit Bridge interfaces. External storage providers remain external systems.
 
 **DrMarchand’s OS™** may present provider or artifact state; it does not become the storage provider or the execution Engine.
 
