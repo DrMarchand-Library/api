@@ -33,7 +33,7 @@ Actual Discord server IDs, channel IDs, invitations, webhook URLs, and credentia
 ## System boundary
 
 - **Design Orchard LLC** is the legal and operating company.
-- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** remains a separate execution system.
+- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** remains a separate execution system.
 - **DrMarchand’s OS™** may present or route state but does not become Discord or GitHub.
 - **📚 DrMarchand’s ⚛︎ Library™** receives eligible records only after the applicable validation and human gate.
 
