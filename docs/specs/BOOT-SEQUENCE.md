@@ -12,7 +12,7 @@ This document describes a release-safe activation model for coordinating DrMarch
 DrMarchand’s OS™
   presentation / navigation / routing / lifecycle state
 
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine
   bounded execution / validation / orchestration
 ```
 
