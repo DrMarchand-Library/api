@@ -11,7 +11,7 @@ Status: public working reference; not a trademark registry, ownership instrument
 | 🏝️ Design Orchard℠ | Service surface |
 | 🔬 DrMarchand’s Lab⚛︎ratory™ | Protected working environment |
 | 📚 DrMarchand’s ⚛︎ Library™ | Preservation, curation, and recall |
-| DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ | Bounded execution and orchestration |
+| DrMarchand’s ⚙︎ Nɛuro-Forge Engine | Bounded execution and orchestration |
 | DrMarchand’s OS™ | Presentation, navigation, routing, and lifecycle state |
 | KEJ Studio | Creative operating lane |
 | DrMarchand’s 🎨 Creative Canvas | Working creative surface |
