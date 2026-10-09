@@ -32,7 +32,7 @@ A checksum may be attached where useful, but a checksum proves byte corresponden
 | Surface | Relationship |
 | --- | --- |
 | 🔬 DrMarchand’s Lab⚛︎ratory™ | May create, test, or validate MMS-form records |
-| DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ | May process MMS-form records when an implementation explicitly supports them |
+| DrMarchand’s ⚙︎ Nɛuro-Forge Engine | May process MMS-form records when an implementation explicitly supports them |
 | 📚 DrMarchand’s ⚛︎ Library™ | May preserve eligible validated records |
 | DrMarchand’s OS™ | May present or route record state without becoming the verifier |
 
