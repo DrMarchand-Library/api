@@ -22,7 +22,7 @@ The Bridge routes notifications. It does not grant publishing, legal, trademark,
 ```yaml
 api_bridge:
   repository: "DrMarchand-Library/api"
-  operating_context: "🔬 DrMarchand’s Lab⚛︎ratory™"
+  operating_context: "🔬 DrMarchand’s Lab⚛︎ratory"
   direction: "GitHub repository events -> authorized Discord coordination"
   credentials: "platform-managed; not stored in repository"
   human_review_required: true
@@ -35,7 +35,7 @@ Actual Discord server IDs, channel IDs, invitations, webhook URLs, and credentia
 - **Design Orchard LLC** is the legal and operating company.
 - **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** remains a separate execution system.
 - **DrMarchand’s OS™** may present or route state but does not become Discord or GitHub.
-- **📚 DrMarchand’s ⚛︎ Library™** receives eligible records only after the applicable validation and human gate.
+- **📚 DrMarchand’s ⚛︎ Library** receives eligible records only after the applicable validation and human gate.
 
 External platforms remain external even when connected by a Bridge.
 

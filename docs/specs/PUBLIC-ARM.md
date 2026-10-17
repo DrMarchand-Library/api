@@ -36,11 +36,11 @@ Use current identities appropriate to the artifact, including:
 - 🌴 Design Orchard™
 - 🏝️ Design Orchard℠
 - 🔬 DrMarchand’s Lab⚛︎ratory™
-- 📚 DrMarchand’s ⚛︎ Library™
+- 📚 DrMarchand’s ⚛︎ Library
 - DrMarchand’s ⚙︎ Nɛuro-Forge Engine
 - DrMarchand’s OS™
 - 🎥 KEJ Studio℠
-- 🎬 KEJ Studio™
+- 🎬 KEJ Studio℠
 - DrMarchand’s 🎨 Creative Canvas
 
 `Infinity OS` and `Infinite OS` are not current system names. The `∞` symbol is infinite-bridge architecture inside DrMarchand’s OS™, not an alternate product identity.

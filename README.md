@@ -60,6 +60,6 @@ Current public documentation uses **DrMarchand’s OS™**. `Infinity OS` and `I
 ## Authority and rights
 
 **Legal and operating company:** Design Orchard LLC  
-**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory™
+**Operating environment:** 🔬 DrMarchand’s Lab⚛︎ratory
 
 See [`LICENSE`](LICENSE) and [`RIGHTS.md`](RIGHTS.md). Runtime, deployment, security, and completion claims require evidence beyond repository presence.
